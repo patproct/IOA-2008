@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+Site for Indiana Outboard Association
+Created by Patrick John Proctor
+on September 24, 2009
+Last updated: September 25, 2009
+*/
+
+body {
+	font-family: Tahoma, Verdana, Geneva, sans-serif;
+	background-color: #FFF;
+	background-image: url(../images/bg_pg2-web30.jpg);
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-size: 14px;
+}
+
+h1 {
+	font-size: 36px;
+	font-family: Verdana, Arial, Garamond, "MS Trebuchet", sans-serif;
+}
+
+h4 {
+	text-align: center;
+	color: #555555;
+}
+
+/* ids (div info mostly) */
+
+#container {
+	width: 768px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 20px;
+/*	border: 1px solid #999999;*/
+}
+
+#header {
+/*	border: 1px solid #999999;*/
+	margin: 10px;
+	padding-left: 7px;
+	color: #CC0000;
+	font-style: italic;
+}
+
+#main {
+	width: 570px;
+	float: right;
+	clear: none;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+/*	padding-right: 7px;*/
+	/* border: 1px solid #999; */
+}
+
+#nav {
+	width: 150px;
+	float: left;
+	border: 1px solid #999999;
+	margin-left: 10px;
+	/* margin-right: 10px; */
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	padding-left: 7px;
+	text-align: left;
+}
+
+#footer {
+	border: 1px solid #999999;
+	margin: 10px;
+	padding-left: 7px;
+	clear: both;
+	height: 90px;
+	font-size: 80%;
+	line-height: 125%;
+}
+
+#footerlogo {
+	float: right;
+	height: 90px;
+	width: 90px;
+}
+
+#right {
+	float: right;
+	border: 1px solid #999;
+	width: 150px;
+	padding: 0px 0px 0px 7px;
+	margin: 0px 0px 10px 10px;
+	clear: left;
+	font-size: 80%;
+}
+
+
+/* Classes */
+
+.subtitle {
+	font-size: 40%;
+	font-style: normal;
+	color: black;
+	font-family: Verdana, Arial, "MS Trebuchet", sans-serif;
+}
+.home {
+	margin-bottom: 0px;
+	border-bottom-width: 2px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+	padding-bottom: 30px;
+}
+
+div.finalLap	{
+	border: 2px solid #006; 
+	margin: 10px 20px 10px 20px; 
+	background-color: #fff;
+}
+
+div.finalLap h2	{
+	font-size: 110%; 
+	color: #000; 
+	margin-top: 15px; 
+}
+.countdown {
+	width: 190px;
+	float: right;
+	clear: left;
+	background-color: #FFFFFF;
+	border: 3px double #999;
+	margin-left: 10px;
+	/* margin-right: 10px; */
+	margin-bottom: 1px;
+	padding-bottom: 10px;
+	padding-left: 7px;
+	padding-right: 7px;
+	text-align: left;
+}
+.rightcol {
+	width: 190px;
+	float: right;
+	clear: left;
+	background-color: #FFFFFF;
+	border: 2px solid #999;
+	margin: 0 0 1px 10px;
+	padding: 0 7px 10px 7px;
+	text-align: center;
+}
+
+/* pseudo classes */
+
+a:link {
+	color: #990000;
+	text-decoration:none;
+}
+
+a:hover {
+	color: #009900;
+}
+a:visited {
+	color: #990000;
+	text-decoration: none;
+}
+.leftMenu {
+	margin-top: 10px;
+}
+.leftSubMenu {
+	margin-top: 3px;
+}
+.navHome {
+	border-top: 1px solid #999;
+	padding-top: 5px;
+	text-align: center;
+}
+.counterbox {
+	border: 2px solid #999;
+	text-align: center;
+	width: 100px;
+	margin: 10px auto 0 auto;
+}
