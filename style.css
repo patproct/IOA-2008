@@ -404,6 +404,9 @@ div.clear  {
 	color: green;
 	font-weight: bold;
 }
+p.footerCopy {
+	margin: 0 0 10px 0;
+}
 		
 		
 		
