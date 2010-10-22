@@ -190,27 +190,27 @@ a:visited	{
 a:hover	{
 	color: #063; 
 	text-decoration: underline; 
-	}
+}
 .menu a:link, a:active	{
 	color: #930; 
 	text-decoration: none; 
-	}
+}
 	
 .menu a:visited	{
 	color: #930; 
 	text-decoration: none; 
-	}
+}
 	
 .subnav {
 	font-family: verdana, arial, helvetica, sans serif; 
 	font-size: 80%;
 	margin-left: 35px;
-	}
+}
 	
 .menu a:hover	{
 	color: #063; 
 	text-decoration: underline; 
-	}
+}
 	
 #footer a:link, a:active	{
 	color: #fff; 
@@ -406,6 +406,9 @@ div.clear  {
 }
 p.footerCopy {
 	margin: 0 0 10px 0;
+}
+a img {
+	border: 0; /*This prevents the browser from drawing a border around a linked image.*/
 }
 		
 		
