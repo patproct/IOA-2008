@@ -45,8 +45,6 @@
 	<!-- <br><hr>
 	<h3>Got links?</h3>
 	<p>Want information about what other clubs are doing or about the	sanctioning bodies? Visit our <a href="links.html">links</a> page!</p> -->
-	&nbsp;<br>
-	&nbsp;<br>
 </div>
 </td><!-- end rightCol td -->
 </tr><!-- end center content row -->

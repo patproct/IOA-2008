@@ -82,7 +82,7 @@ body {
 	}
 
 #rightCol {
-	width: 235px; 
+/*	width: 235px; */ /* This CSS rule was screwing up presentation in IE7. */
 	background-image:  url("images/web-rightRail-bg.gif");  
 	background-position:  0px 0px;  
 	background-repeat:  no-repeat;  
@@ -313,6 +313,7 @@ li.current_page_item ul.children {
 
 #middleCol {
 	padding: 31px 0;
+	width: 525px;
 }
 #middleCol img {
 	padding: 0px 0px 15px 25px; 

@@ -13,9 +13,9 @@
 		}
 		?>
 		<title><?php echo $title_tag; bloginfo('name');?></title>
-		<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
-		<meta content="Indiana Outboard Association, Modified Racing Hydroplanes, Modified Racing Runabouts, DIY, racing, midwest, Indiana, Ohio, Michigan, Illinois, Oklahoma, Kentucky, APBA" name="keywords">
-		<meta content="We race modified outboard hydroplanes and runabouts throughout the midwest!" name="description">
+		<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type" />
+		<meta content="Indiana Outboard Association, Modified Racing Hydroplanes, Modified Racing Runabouts, DIY, racing, midwest, Indiana, Ohio, Michigan, Illinois, Oklahoma, Kentucky, APBA" name="keywords" />
+		<meta content="We race modified outboard hydroplanes and runabouts throughout the midwest!" name="description" />
 		
 		<!-- begin javascript & stylesheets -->
 		<script src="http://indianaoutboard.org/script-openme.js" type="text/javascript" language="JavaScript"> </script>
@@ -99,7 +99,7 @@
 					<td id="header" colspan="3">
 						<div id="headerlogo">
 							<?php if (!is_home()) { ?>
-								<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/logo.jpg" alt="" height="115" width="144"></a>
+								<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/logo.jpg" alt="" height="115" width="144" /></a>
 							<?php } else { ?>
 								<img src="<?php bloginfo('template_directory'); ?>/images/logo.jpg" alt="" height="115" width="144">
 							<?php } ?>

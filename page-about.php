@@ -23,4 +23,5 @@
 		<p><a href="http://www.indianaoutboard.org/results/finalresults09.pdf">2009 IOA Results</a>, (PDF, 12 KB)</p> <p>If you do not have it, you may download the <a href="http://www.adobe.com/products/acrobat/" target="_blank">Adobe Acrobat Reader</a> for free!</p>
 	</div>
 </td><!-- end rightCol td -->
+</tr><!-- end center content row -->
 <?php get_footer(); ?>

@@ -39,9 +39,8 @@
 		<h3>PDF Reader</h3>
 		<p>Can't see the results? Try downloading and installing <a href="http://www.adobe.com/products/acrobat/readstep2.html" target="_blank">Adobe Acrobat Reader</a> for free!</p>
 		<!-- <p><img alt="race boat" style="width: 187px; height: 122px;" src="<?php bloginfo('template_directory'); ?>/photos/beegle-1_225.jpg"></p> <p>Join us for the 2008 racing season!</p> -->
-
-&nbsp;<br>
-
-&nbsp;<br> </div> </td><!-- end rightCol td -->
+</div>
+</td><!-- end rightCol td -->
+</tr><!-- end center content row -->
 
 <?php get_footer(); ?>
