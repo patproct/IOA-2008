@@ -12,7 +12,7 @@
 	
 	<h2><?php the_title(); ?></h2>
 	<?php the_content(); ?>
-	<div class="post">
+	<div class="post" id="post-<?php the_ID(); ?>">
 	<?php $myEvent = get_group('Event'); // use the Custom Group name
 	foreach($myEvent as $event){ ?>
 	<p>
@@ -26,7 +26,10 @@
 		}
 		echo $statusOutput; ?><br />
 		<?php echo $event['note'][1]; ?>
-		<?php $statusOutput = ''; ?>
+		<?php $statusOutput = ''; ?><br />
+		<?php if ($event['results'][1]) { ?>
+		Results are <a href="<?php echo $event['results'][1]; ?>" target="_blank" title="Results for race at <?php echo $event['location'][1]; ?> on <?php echo $event['date'][1];?>">available</a>.
+		<?php } ?>
 	</p>
 	<?php } ?>
 	</div>

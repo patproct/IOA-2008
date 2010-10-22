@@ -246,16 +246,16 @@ a:hover	{
 	}
 
 .menu {
-	margin-top: 30px; 
-	}
+	margin-top: 38px; 
+}
 
 .menu li {
 	list-style-type: none; 
-	font-size: 100%;  
-	line-height: 100%; 	
+	font-size: 95%;  
+	line-height: 110%; 	
 	margin: 0px 10px 0px -15px; 
 	padding: 7px 0px;
-	}
+}
 ul.children {
 	margin: 0 0 0 -10px;
 }
@@ -312,7 +312,7 @@ li.current_page_item ul.children {
 	}
 
 #middleCol {
-	padding: 15px 0;
+	padding: 31px 0;
 }
 #middleCol img {
 	padding: 0px 0px 15px 25px; 

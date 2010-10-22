@@ -17,7 +17,8 @@
 				<?php if ($event['status'][1]) {
 					echo '('.$event['status'][1].')';
 				} ?><br />
-				<?php echo $event['note'][1]; ?>
+				<?php echo $event['note'][1]; ?><br />
+				Sanction  |  Results  | Photos
 			</p>
 			<?php }
 		}
@@ -34,8 +35,8 @@
 <td id="rightCol">
 <div id="search">
 	<h3>IOA Legacy</h3>
-	<p>Looking for IOA stuff from before 2008? Head on over the the IOA's <a href="legacy/">legacy</a> site.</p>
-	<p>The <a href="javascript:openme('legacy/results/sallee.html')">Sallee Award</a> winners since 1963 have been added. Enjoy!</p>
+	<p>Looking for IOA stuff from before 2008? Head on over the the IOA's <a href="http://www.indianaoutboard.org/legacy/">legacy</a> site.</p>
+	<p>The <a href="javascript:openme('http://indianaoutboard.org/legacy/results/sallee.html')">Sallee Award</a> winners since 1963 have been added. Enjoy!</p>
 	<!-- <br><hr>
 	<h3>2009 Membership</h3> <p><span style="font-weight: bold;">Join us for this year!</span>
 	The IOA Membership Application is now available here.</p>
