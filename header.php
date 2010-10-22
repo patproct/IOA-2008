@@ -13,10 +13,12 @@
 		}
 		?>
 		<title><?php echo $title_tag; bloginfo('name');?></title>
-		<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type"> <meta content="Indiana Outboard Association, Modified Racing Hydroplanes" name="description"><meta content="" name="keywords">
+		<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+		<meta content="Indiana Outboard Association, Modified Racing Hydroplanes, Modified Racing Runabouts, DIY, racing, midwest, Indiana, Ohio, Michigan, Illinois, Oklahoma, Kentucky, APBA" name="keywords">
+		<meta content="We race modified outboard hydroplanes and runabouts throughout the midwest!" name="description">
 		
 		<!-- begin javascript & stylesheets -->
-		<script src="script-openme.js" type="text/javascript" language="JavaScript"> </script>
+		<script src="http://indianaoutboard.org/script-openme.js" type="text/javascript" language="JavaScript"> </script>
 		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 		<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico" />
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
@@ -50,11 +52,25 @@
 			}
 			</style>
 		<?php } ?>
-		<?php if (!get_children( $post->ID ) && (wt_get_depth() == 0)) { ?>
+		<?php if ((wt_get_depth() == 0)) { ?>
+			<!-- If the current level 0 page has children show them and hide all other children -->
+			<style type="text/css" media="screen">
+			ul.children {
+				display: none;
+			}
+			.current_page_item ul {
+				display: block !important;
+			}
+			</style>
+		<?php } ?>
+		<?php if ((wt_get_depth() > 0)) { ?>
 			<!-- Hides the level 1+ page links if those pages' parent is not the current page -->
 			<style type="text/css" media="screen">
 			ul.children {
 				display: none;
+			}
+			li.current_page_ancestor ul, li.current_page_parent ul {
+				display: block !important;
 			}
 			</style>
 		<?php } ?>
@@ -76,7 +92,7 @@
 				</tr><!-- end header row -->
 				<tr>
 					<td id="tag" colspan="3">
-						<h1><?php if (is_home()) { echo "Home"; } else { wp_title('',1,''); } ?>&nbsp;&nbsp;&bull;&nbsp;&nbsp;Indiana Outboard Association&nbsp;&nbsp;&bull;&nbsp;&nbsp;Season 2011</h1>
+						<h1><?php if (is_home()) { echo "Home"; } else { wp_title('',1,''); } ?>&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;Indiana Outboard Association&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;Season 2011</h1>
 					</td>
 				</tr><!-- end tag row -->
 				<tr id="center" valign="top"><!-- begin center content row -->
